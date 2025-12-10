@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <center><h1 style="color: #2E90D1;">John Doe Portfolio</h1></center>
+    <center style="color: #2E90D1;"><p>Professional Web Developer</p></center>
+    <h2 style="color: #2E90D1;">About Me</h2>
+    <table width="100%">
+        <tr>
+            <td width="20%">
+                <img src="imgs/IMG_3526.JPG" alt="profile photo" width="200" height="200"><br>
+                <img src="imgs/IMG_3521.PNG" width="30">
+                <img src="imgs/IMG_3522.JPG" width="40">
+                <img src="imgs/IMG_3524.JPG" width="30">
+                <img src="imgs/IMG_3525.PNG" width="30">
+            </td>
+            <td width="70%">
+                <p>Hello! I'm John Doe, a passionate web developer with over 5 years of experience in creating innovative digital solutions. I specialize in full-stack development and have a keen interest in modern web technologies.</p>
+                <p>My journey in web development started during my college years, and since then I've been continuously learning and adapting to new technologies. I believe in writing clean, efficient code and creating user-friendly interfaces.</p>
+                <h3 style="background-color: #C4E0F2;">Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Angular</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <h2 style="color: #2E90D1;">Experience Timeline</h2>
+    <center><p>Professional Experience Overview</p></center>
+    <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #2676AB; color: white;">
+                <th>Company</th>
+                <th>Logo</th>
+                <th>Role</th>
+                <th>Key Achievements</th>
+                <th>Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">TechCorp Solutions</td>
+                <td rowspan="2"><img src="imgs/IMG_3547.JPG" alt="TechCorp Solutions photo" width="100"></td>
+                <td>Senior Full Stack Developer</td>
+                <td>
+                    <ul>
+                        <li>Lead development of web applications</li>
+                        <li>Mentor junior developers</li>
+                        <li>Architect scalable solutions</li>
+                    </ul>
+                </td>
+                <td>Jan 2023 - Present</td>
+            </tr>
+            <tr>
+                <td>Full Stack Developer</td>
+                <td>
+                    <ul>
+                        <li>Developed responsive web applications</li>
+                        <li>Collaborated with design teams</li>
+                        <li>Optimized application performance</li>
+                    </ul>
+                </td>
+                <td>2021 - 2023</td>
+            </tr>
+            <tr>
+                <td>Digital Agency Pro</td>
+                <td><img src="imgs/IMG_3548.JPG" alt="Digital Agency Pro photo" width="130"></td>
+                <td>Frontend Developer</td>
+                <td>
+                    <ul>
+                        <li>Built user interfaces from mockups</li>
+                        <li>Implemented responsive designs</li>
+                        <li>Conducted code reviews</li>
+                    </ul>
+                </td>
+                <td>2019 - 2020</td>
+            </tr>
+            <tr>
+                <td>Web Design Studio</td>
+                <td><img src="imgs/IMG_3549.JPG" alt="Web Design Studio photo" width="170"></td>
+                <td>Junior Web Developer</td>
+                <td>
+                    <ul>
+                        <li>Maintained existing websites</li>
+                        <li>Fixed bugs and implemented features</li>
+                        <li>Learned best practices</li>
+                    </ul>
+                </td>
+                <td>2019 - 2020</td>
+            </tr>
+            <tr>
+                <td colspan="5">Total Experience: 5+ years in web development</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h2 style="color: #2E90D1;">Contact Me</h2>
+    <p>Feel free to reach out to me using the form below. Id love to hear from you!</p>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="fname">First Name: *</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" required>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="lname">Last Name: *</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address: *</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="phone">Phone Number: </label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Preferred Meeting Date: </label>
+                    </td>
+                    <td colspan="2">
+                        <input type="date" id="date" name="date">
+                    </td>
+                    <td>
+                        <label for="time">Best Time to Contact: </label>
+                    </td>
+                    <td>
+                        <input type="time" id="time" name="time">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Project Details</legend>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="project">Project Type: *</label>
+                        <input type="text" id="project" name="project" required>
+                    </td>
+                    <td>
+                        <label for="message"> Project Description: *</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Budget Range:</label><br>
+                        <input type="radio" id="under5k" name="range">
+                        <label for="under5k">Under $5,000</label><br>
+                        <input type="radio" id="between5&10" name="range">
+                        <label for="between5&10">$5,000 - $10,000</label><br>
+                        <input type="radio" id="betwen10&25" name="range">
+                        <label for="betwen10&25">$10,000 - $25,000</label><br>
+                        <input type="radio" id="over25k" name="range">
+                        <label for="over25k">Over $25,000</label>
+                    </td>
+                    <td>
+                        <label>Services Required (Check all that apply):</label><br>
+                        <input type="checkbox" id="uiux" name="uiux">
+                        <label for="uiux">UI/UX Design</label><br>
+                        <input type="checkbox" id="frontend" name="frontend">
+                        <label for="frontend">Frontend Development</label><br>
+                        <input type="checkbox" id="backend" name="backend">
+                        <label for="backend">Backend Development</label><br>
+                        <input type="checkbox" id="hosting" name="hosting">
+                        <label for="hosting">Hosting & Deployment</label><br>
+                        <input type="checkbox" id="maintenance" name="maintenance">
+                        <label for="maintenance">Maintenance & Support</label>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="question">How did you hear about me?</label>
+                        <select name="question" id="question">
+                            <option value="select source">-- select source</option>
+                            <option value="google">google</option>
+                            <option value="facebook">facebook</option>
+                            <option value="instagram">instagram</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Send Message" style="background-color: #2E90D1; color: white;"> 
+        <input type="reset" value="Clear Form" style="background-color: red; color: white;">
+    </form>
+</body>
+</html>
